@@ -3,9 +3,44 @@ body {
     font-family: 'Arial', sans-serif;
     transition: background-color 0.3s ease, color 0.3s ease;
 }
+
+body {
+    background-color: #F4F6F8;
+    font-family: 'Arial', sans-serif;
+    transition: background-color 0.3s ease, color 0.3s ease;
 .navbar {
-    background-color: #0B1F3A;
+    background-color:#C5A663;
 }
+.navbar a {
+    color: white !important;
+}
+.section-heading {
+    margin-top: 50px;
+    text-align: center;
+    color: #1C1C1C;
+}
+.dark-mode {
+    background-color: #2E2E2E;
+    color: #FFFFFF;
+}
+.dark-mode .navbar {
+    background-color: #1F1F1F;
+}
+.service-card {
+    border: 1px solid #DDD;
+    border-radius: 10px;
+    padding: 20px;
+    box-shadow: 0px 0px 15px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s ease;
+}
+.service-card:hover {
+    transform: translateY(-10px);
+}
+.service-card img {
+    width: 100%;
+    border-radius: 10px;
+}
+
 .navbar a {
     color: white !important;
 }
