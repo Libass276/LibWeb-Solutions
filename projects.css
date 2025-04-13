@@ -4,7 +4,7 @@ body {
     transition: background-color 0.3s ease, color 0.3s ease;
 }
 .navbar {
-    background-color: #0B1F3A;
+    background-color:#C5A663;
 }
 .navbar a {
     color: white !important;
